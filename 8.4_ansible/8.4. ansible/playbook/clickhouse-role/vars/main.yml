@@ -1,0 +1,13 @@
+---
+# vars file for clickhouse-role
+#
+clickhouse_package:
+  - clickhouse-role-client
+  - clickhouse-role-server
+  - clickhouse-role-common-static
+
+clickhouse_path_configdir: "/etc/clickhouse-role-server"
+clickhouse_path_logdir: "/var/log/clickhouse-role-server"
+clickhouse_path_data: "{{ clickhouse_path_base }}/clickhouse-role/"
+clickhouse_path_tmp: "{{ clickhouse_path_base }}/clickhouse-role/tmp/"
+clickhouse_service: 'clickhouse-role-server.service'

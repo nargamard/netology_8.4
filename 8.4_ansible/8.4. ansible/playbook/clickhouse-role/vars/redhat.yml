@@ -1,0 +1,4 @@
+---
+clickhouse_supported: yes
+clickhouse_repo: "https://repo.clickhouse-role.tech/rpm/stable/x86_64/"
+clickhouse_repo_key: https://repo.clickhouse-role.tech//CLICKHOUSE-KEY.GPG

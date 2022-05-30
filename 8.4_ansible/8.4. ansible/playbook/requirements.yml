@@ -1,0 +1,5 @@
+---
+  - src: git@github.com:AlexeySetevoi/ansible-clickhouse-role.git
+    scm: git
+    version: "1.11.0"
+    name: clickhouse-role

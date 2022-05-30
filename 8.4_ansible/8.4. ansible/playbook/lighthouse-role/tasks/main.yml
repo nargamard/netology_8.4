@@ -1,0 +1,20 @@
+---
+# tasks file for lighthouse-role
+- include_tasks: install_nginx.yml
+- name: Install unzip
+  become: true
+  ansible.builtin.yum:
+    name: unzip
+    state: latest
+    update_cache: yes
+- name: get zip & unarchive
+  ansible.builtin.unarchive:
+    src: "https://github.com/VKCOM/lighthouse-role/archive/refs/heads/master.zip"
+    dest: "."
+    remote_src: yes
+- name: Copy lighthouse-role sources
+  become: true
+  command: cp -r /home/centos/lighthouse-role-master/. /usr/share/nginx/html
+  notify: Start nginx service
+- name: Cleaning files
+  command: rm -rf /home/centos/lighthouse-role-master
