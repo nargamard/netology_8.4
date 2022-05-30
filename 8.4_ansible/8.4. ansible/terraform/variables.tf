@@ -19,7 +19,7 @@ variable "secret_key" {
 }
 
 variable "token_path" {
-  default = "/home/cats/tokens/key.json"
+  default = "/home/andrej/tokens/key.json"
 }
 
 variable "centos-7" {

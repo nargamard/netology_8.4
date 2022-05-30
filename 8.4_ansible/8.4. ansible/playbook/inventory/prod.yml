@@ -2,7 +2,7 @@
 clickhouse:
   hosts:
     clickhouse-01:
-      ansible_host: 51.250.88.13
+      ansible_host: 51.250.73.194
       become_user: root
       remote_user: centos
       ansible-user: centos
@@ -10,7 +10,7 @@ clickhouse:
 vector:
   hosts:
     vector-01:
-      ansible_host: 51.250.91.234
+      ansible_host: 51.250.83.154
       become_user: root
       remote_user: centos
       ansible-user: centos
@@ -18,7 +18,7 @@ vector:
 lighthouse:
   hosts:
     lighthouse-01:
-      ansible_host: 51.250.86.55
+      ansible_host: 51.250.93.71
       become_user: root
       remote_user: centos
       ansible-user: centos

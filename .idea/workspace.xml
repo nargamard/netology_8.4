@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6800623-347f-42a0-8322-707174cc372a" name="Changes" comment="08-ansible-04-roles" />
+    <list default="true" id="c6800623-347f-42a0-8322-707174cc372a" name="Changes" comment="08-ansible-04-roles">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/playbook/inventory/prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/playbook/inventory/prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/playbook/lighthouse-role/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/playbook/lighthouse-role/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/playbook/vector-role/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/playbook/vector-role/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/playbook/vector-role/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/playbook/vector-role/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/terraform/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/terraform/terraform.tfstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/terraform/terraform.tfstate.backup" beforeDir="false" afterPath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/terraform/terraform.tfstate.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/terraform/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/8.4_ansible/8.4. ansible/terraform/variables.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +52,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653940992083</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="08-ansible-04-roles">
+      <created>1653941285333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653941285333</updated>
+    </task>
+    <task id="LOCAL-00003" summary="08-ansible-04-roles">
+      <created>1653941341748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653941341748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -57,7 +80,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="8.4._roles" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>

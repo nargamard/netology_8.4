@@ -9,12 +9,12 @@
     update_cache: yes
 - name: get zip & unarchive
   ansible.builtin.unarchive:
-    src: "https://github.com/VKCOM/lighthouse-role/archive/refs/heads/master.zip"
+    src: "https://github.com/VKCOM/lighthouse/archive/refs/heads/master.zip"
     dest: "."
     remote_src: yes
-- name: Copy lighthouse-role sources
+- name: Copy lighthouse sources
   become: true
-  command: cp -r /home/centos/lighthouse-role-master/. /usr/share/nginx/html
+  command: cp -r /home/centos/lighthouse-master/. /usr/share/nginx/html
   notify: Start nginx service
 - name: Cleaning files
-  command: rm -rf /home/centos/lighthouse-role-master
+  command: rm -rf /home/centos/lighthouse-master
