@@ -1,12 +1,9 @@
 ---
 # tasks file for vector-role
-- name: Get vector distrib
-  ansible.builtin.get_url:
-    url: "https://packages.timber.io/vector/{{ vector_version }}/vector-{{ vector_version }}-1.x86_64.rpm"
-    dest: "./vector-{{ vector_version }}-1.x86_64.rpm"
-- name: Install vector packages
-  become: true
-  ansible.builtin.yum:
-    name:
-      - vector-{{ vector_version }}-1.x86_64.rpm
-  notify: Start vector service
+- name: print facts
+  debug:
+    var: ansible_distribution
+- include_tasks: install_CentOS.yml
+  when: ansible_distribution == "CentOS"
+- include_tasks: install_Ubuntu.yml
+  when: ansible_distribution == "Ubuntu"
